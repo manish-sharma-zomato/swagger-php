@@ -1,11 +1,11 @@
 {
-    "name": "zircote/swagger-php",
+    "name": "manish-sharma-zomato/swagger-php",
     "type": "library",
     "license": "Apache-2.0",
     "bin": ["bin/swagger"],
     "description": "Swagger-PHP - Generate interactive documentation for your RESTful API using phpdoc annotations",
     "keywords": ["json", "rest", "api", "service discovery"],
-    "homepage": "https://github.com/zircote/swagger-php/",
+    "homepage": "https://github.com/manish-sharma-zomato/swagger-php/",
     "authors": [
         {
             "name": "Robert Allen",
@@ -24,7 +24,7 @@
     "require": {
         "php": ">=5.6",
         "doctrine/annotations": "*",
-        "symfony/finder": ">=2.2"
+        "symfony/finder": "<4.0"
     },
     "autoload": {
         "psr-4": {
